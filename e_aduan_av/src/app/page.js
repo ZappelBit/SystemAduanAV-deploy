@@ -145,7 +145,7 @@ const faqList = [
         {/* WhatsApp Button */}
         <div className="flex justify-center mt-6">
           <a
-            href="https://wa.me/60182159030?text=Hi,%20my%20name%20is%20Farhan%0APlease%20fill%20in%20the%20form%0A%0AName:%0ARoom:%0AProblem:%0APhone%20No:"
+            href="https://wa.me/60182159030?text=Hello,%20this%20is%20the%20AV%20Support%20Reporting%20Form.%0APlease%20provide%20the%20required%20details%20below:%0AName:%0ARoom:%0AIssue%20Description:%0A%0AThank%20you.%20Our%20team%20will%20respond%20as%20soon%20as%20possible."
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition"
