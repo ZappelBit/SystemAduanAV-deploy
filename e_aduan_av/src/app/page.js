@@ -95,18 +95,6 @@ const faqList = [
             />
           </div>
         </ul>
-        
-        {/* WhatsApp Button */}
-        <div className="flex justify-center mt-6">
-          <a
-            href="https://wa.me/60182159030?text=Hi,%20my%20name%20is%20Farhan%0APlease%20fill%20in%20the%20form%0A%0AName:%0ARoom:%0AProblem:%0APhone%20No:"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition"
-          >
-          Contact Support via WhatsApp
-          </a>
-        </div>
       </div>
     ),
   },
@@ -137,18 +125,6 @@ const faqList = [
             />
             </div>
         </ul>
-
-        {/* WhatsApp Button */}
-        <div className="flex justify-center mt-6">
-          <a
-            href="https://wa.me/60182159030?text=Hi,%20my%20name%20is%20Farhan%0APlease%20fill%20in%20the%20form%0A%0AName:%0ARoom:%0AProblem:%0APhone%20No:"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition"
-          >
-          Contact Support via WhatsApp
-          </a>
-        </div>
       </div>
     ),
   },
@@ -161,9 +137,9 @@ const faqList = [
           Follow these steps to submit a report:
         </p>
         <ol className="list-decimal ml-8 mt-2 space-y-1 text-sm text-gray-700">
-          <li>Please press the <b>Whatsapp Link</b> button below.</li>
+          <li>Please click the <b>Whatsapp Link</b> button below.</li>
           <li>Fill in the required information in the form.</li>
-          <li>Submit report.</li>
+          <li>Submit your report.</li>
         </ol>
 
         {/* WhatsApp Button */}
