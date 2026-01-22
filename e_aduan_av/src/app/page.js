@@ -273,7 +273,7 @@ export default function App() {
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-4 py-3 sm:py-2 bg-green-500 text-white rounded-lg font-semibold shadow hover:bg-green-600 transition flex items-center justify-center"
           >
-            WhatsApp
+            Contact Us
           </a>
         </div>
       </nav>
