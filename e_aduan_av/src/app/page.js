@@ -166,7 +166,8 @@ const faqList = [
         </p>
         <ol className="list-decimal ml-8 mt-2 space-y-1 text-sm text-gray-700">
           <li>
-            Please click the <b>Laporkan Aduan</b> button below.
+            Kindly click the <b>Laporkan Aduan</b> or <b>Contact Us</b> button
+            below to proceed.
           </li>
           <li>Fill in the required information in the form.</li>
           <li>Submit your report.</li>
@@ -184,7 +185,7 @@ const faqList = [
           </a>
 
           <a
-            href="https://wa.me/60123456789?text=Hello%20Admin"
+            href="https://wa.me/60332587029?"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-5 py-2 sm:py-2 bg-green-500 text-white rounded-full shadow hover:bg-green-600 transition items-center justify-center gap-2"
@@ -257,21 +258,22 @@ export default function App() {
   return (
     <div className="font-sans min-h-screen bg-gray-50 flex flex-col items-center">
       {/* NAVBAR */}
-      <nav className="fixed top-0 w-full border-b border-gray-200 py-4 bg-white shadow-sm z-50">
-        <div className="flex items-center justify-between mx-auto px-4 max-w-7xl">
+      <nav className="fixed top-0 w-full bg-white border-b border-gray-200 shadow-sm z-50">
+        <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+          {/* Logo */}
           <a
             href="/"
-            className="text-2xl font-extrabold text-indigo-700 tracking-wider"
+            className="text-xl sm:text-2xl font-extrabold text-indigo-700 tracking-wide"
           >
             E-ADUAN AV
           </a>
 
-          {/* WhatsApp Button */}
+          {/* Contact Button */}
           <a
-            href="https://wa.me/60123456789?text=Hello%20Admin"
+            href="https://wa.me/60332587029?"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full sm:w-auto px-4 py-3 sm:py-2 bg-green-500 text-white rounded-lg font-semibold shadow hover:bg-green-600 transition flex items-center justify-center"
+            className="px-4 py-2 bg-green-500 text-white rounded-lg font-semibold shadow hover:bg-green-600 transition text-sm sm:text-base"
           >
             Contact Us
           </a>
@@ -279,7 +281,7 @@ export default function App() {
       </nav>
 
       {/* MAIN CONTENT */}
-      <section className="w-full pt-24 pb-20 px-4 md:px-6">
+      <section className="w-full pt-32 md:pt-36 pb-20 px-4 md:px-6">
         <div className="max-w-4xl mx-auto">
           {/* Welcome Text */}
           <div className="text-center mb-16 p-6 bg-white rounded-2xl shadow-lg">
