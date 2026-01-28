@@ -165,12 +165,10 @@ const faqList = [
           Follow these steps to submit a report:
         </p>
         <ol className="list-decimal ml-8 mt-2 space-y-1 text-sm text-gray-700">
-          <li>
-            Kindly click the <b>Laporkan Aduan</b> or <b>Contact Us</b> button
-            below to proceed.
-          </li>
+          <li>Click the <b>Laporkan Aduan</b> button below.</li>
           <li>Fill in the required information in the form.</li>
-          <li>Submit your report.</li>
+          <li>Click <b>Submit</b> to complete your report.</li>
+          <li>You may contact via WhatsApp for urgent assistance</li>
         </ol>
 
         {/* Report Button */}
@@ -181,7 +179,7 @@ const faqList = [
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-5 py-2 bg-indigo-700 text-white rounded-full shadow hover:bg-indigo-800 transition text-center"
           >
-            Laporkan Aduan
+            Laporkan Aduan AV (Rasmi)
           </a>
 
           <a
@@ -190,7 +188,7 @@ const faqList = [
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-5 py-2 sm:py-2 bg-green-500 text-white rounded-full shadow hover:bg-green-600 transition items-center justify-center gap-2"
           >
-            WhatsApp
+            Bantuan Segera via WhatsApp
           </a>
         </div>
       </div>
@@ -275,7 +273,7 @@ export default function App() {
             rel="noopener noreferrer"
             className="px-4 py-2 bg-green-500 text-white rounded-lg font-semibold shadow hover:bg-green-600 transition text-sm sm:text-base"
           >
-            Contact Us
+            Bantuan Segera via WhatsApp
           </a>
         </div>
       </nav>
