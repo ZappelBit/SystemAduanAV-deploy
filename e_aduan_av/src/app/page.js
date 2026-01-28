@@ -272,9 +272,9 @@ export default function App() {
             href="https://wa.me/60332587029?"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 bg-green-500 text-white rounded-lg font-semibold shadow hover:bg-green-600 transition text-sm sm:text-base"
+            className="px-3 py-2 bg-green-500 text-white rounded-lg font-semibold shadow hover:bg-green-600 transition text-sm sm:text-base whitespace-nowrap"
           >
-            Hubungi Teknikal (WhatsApp)
+            Hubungi Teknikal
           </a>
         </div>
       </nav>
