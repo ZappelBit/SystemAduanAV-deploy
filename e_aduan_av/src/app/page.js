@@ -169,14 +169,12 @@ const faqList = [
           <li>Fill in the required information in the form.</li>
           <li>Click <b>Submit</b> to complete your report.</li>
           <li>For urgent issues, please contact the technical team via WhatsApp.</li>
-          <li>You may contact via WhatsApp for urgent assistance</li>
         </ol>
 
         {/* Report Button */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mt-6">
           <a
             href="/report"
-            target="_blank"
             rel="noopener noreferrer"
             className="w-full sm:w-auto px-5 py-2 bg-indigo-700 text-white rounded-full shadow hover:bg-indigo-800 transition text-center"
           >
